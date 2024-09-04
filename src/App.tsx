@@ -5,7 +5,7 @@ import GenreList from "./components/GenreList"
 
 function App() {
   return (
-    <Grid templateAreas={{base: `"nav" "main"`, lg: `"nav nav" "aside main"`}}>
+    <Grid templateAreas={{base: `"nav" "main"`, lg: `"nav nav" "aside main"`}} templateColumns={{base: '1fr', lg: '300px 1fr'}}>
       <GridItem area="nav">
         <Navbar />
       </GridItem>
